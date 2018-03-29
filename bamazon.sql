@@ -12,7 +12,20 @@ CREATE TABLE products (
   PRIMARY KEY (item_id)
 );
 
-INSERT INTO products (item_id,product_name, department_name, price,stock_quantity)
-VALUES (1,Duck Carcass Press,Home & Kitchen,1999.99,200);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUE (1,"Duck Carcass Press","Home & Kitchen",1999.99,200),
+(2,"Uranium Ore","Industrial & Scientific",39.95,300),
+(3,"Wolf Urine","Lawn & Garden",99.99,110),
+(4,"The Sojourner Keyboard","Electronics",999.00,222),
+(5,"The Official Banana Sticker Book","Books",7.99,123),
+(6,"Banana Slicer","Home & Kitchen",2.93,200),
+(7,"Bluetooth Speaker Smart Bulb","Home & Kitchen",29.95,550),
+(8,"AlienTech Clue Projector","Electronics",479.00,64),
+(9,"The Gurthenberg Bible","Books",3.79,12),
+(10,"Giant Googly Eye Stickers","Home & Kitchen",10.79,1200)
+
+
+
+
 
 
