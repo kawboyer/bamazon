@@ -20,19 +20,20 @@ The Bamazon app is an Amazon-like storefront. The app uses __**mySQL**__ to take
 * _**inquirer**_
 * _**cli-table**_
 
-## Screenshot illustrating the functionality of the app:
+## Screenshots illustrating the functionality of the app:
 
-![Screenshot illustrating the table and user input (1 and 2)](/images/1-userInputPositive.png)
-Format: ![User Input](url)
+![](/images/1-userInputPositive.png)
+Screenshot illustrating the table and user input (1 and 2) <br />
 
-![Screenshot illustrating the response if the item is in stock (3 and 4)](/images/1-userInputPositive.png)
-Format: ![Response - positive](url)
+![](/images/2-responsePositive.png) 
+Screenshot illustrating the response if the item is in stock (3 and 4) <br />
 
-![Screenshots illustrating the table and user input (1 and 2)](/images/1-userInputPositive.png)
-Format: ![User Input](url)
+![](/images/3-userInputNegative.png) 
+Screenshots illustrating the table and user input (1 and 2) <br />
 
-![Screenshots illustrating the response if the item is not in stock (3 and 5)](/images/1-userInputPositive.png)
-Format: ![Response - negative](url)
+![](/images/4-responseNegative.png) 
+Screenshots illustrating the response if the item is not in stock (3 and 5) <br />
+
 
 
 
