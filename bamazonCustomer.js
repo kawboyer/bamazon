@@ -77,16 +77,16 @@ function start() {
         
       var query="SELECT * FROM products WHERE ?"
       connection.query(query, {item_id:answer.id}, function(err, res){
-        // console.log(res);
+        var total = (parseInt(answer.units) * res[0].price);
+
         console.log("Currently the stock quantity of item id " + answer.id + " is: " + res[0].stock_quantity);
         console.log("");
-        console.log("Your total is $" + (parseInt(answer.units) * res[0].price));
-
+        
         if (answer.units <= res[0].stock_quantity) {
           var updateQuery = ("UPDATE products SET stock_quantity =" + (res[0].stock_quantity - answer.units) + " WHERE item_id = " + answer.id);
           connection.query(updateQuery, {item_id:answer.id}, function(err, res) {
 
-          //console.log("Your total is " + (parseInt(answer.units) * res[0].price));
+          console.log("Your total is $" + total);
           console.log(""); 
           console.log("Thanks for shopping with us!");
           console.log("");
@@ -94,7 +94,6 @@ function start() {
           });
         }
         else if (answer.units > res[0].stock_quantity) {
-          console.log(""); 
           console.log("Sorry! We do not have enough in stock right now. Please check back later.");
           console.log("");
           console.log("---------------------------------------------------------------------------------------------------------------");

@@ -22,17 +22,17 @@ The Bamazon app is an Amazon-like storefront. The app uses _**mySQL**_ to take i
 
 ## Screenshots illustrating the functionality of the app:
 
-![](/images/1-userInputPositive.png)
-Screenshot illustrating the table and user input. See points 1 and 2 in the description. <br />
+![](/images/1-userInputPositive.png) <br />
+_Screenshot illustrating the table and user input (points 1 and 2)._ <br />
 
-![](/images/2-responsePositive.png) 
-Screenshot illustrating the response if the item is in stock. See points 3 and 4 in the description. <br />
+![](/images/2-responsePositive.png) <br />
+_Screenshot illustrating the response if the item is in stock (points 3 and 4)._ <br />
 
-![](/images/3-userInputNegative.png) 
-Screenshot illustrating the table and user input. See points 1 and 2 in the description. <br />
+![](/images/3-userInputNegative.png) <br />
+_Screenshot illustrating the table and user input (points 1 and 2)._ <br />
 
-![](/images/4-responseNegative.png) 
-Screenshot illustrating the response if the item is NOT in stock. See points 3 and 5 in the description. <br />
+![](/images/4-responseNegative.png) <br />
+_Screenshot illustrating the response if the item is NOT in stock (3 and 5)._ <br />
 
 
 
